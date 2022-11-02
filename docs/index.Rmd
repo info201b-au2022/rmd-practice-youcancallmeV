@@ -11,11 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Covid Report
-I write a paragraph here. I will highlight that the total number of US cases is `r get_total_cases()`. And, the total number of US deaths is `r get_total_deaths()`. 
+According to our data set, the total number of US cases is `r get_total_cases()`. The total number of US death is `r get_total_deaths()`.
 
-(**Note**: Why are there no commas in the *total number of US deaths* ? Can you change `analysis.R` file so that the number is commented with commas?)
 
-I also want to show the chart:
+I also want to show the chart of cumulative cases based on dates :
 ``` {r echo=FALSE}
 cases_plot
 ```
